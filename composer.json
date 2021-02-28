@@ -1,16 +1,22 @@
 {
-    "name": "miranda-mon/ecommerceProject",
-    "description": "projeto ecommerce",
-    "type": "project",
-    "minimum-stability": "dev",
+    "name": "miranda-mon/ecommerceproject",
+    "description": "Projeto de estudo de loja e-commerce em php 7",
+    "authors": [
+        {
+            "name": "Nuno Miranda - MirandaMon",
+            "email": "nuno_miranda@outlook.com"
+        }
+    ],
     "require": {
+
         "phpmailer/phpmailer":"5.2.22",
         "slim/slim":"2.0",
         "rain/raintpl":"3.0.0"
+
     },
-    "autoload":{
-        "psr-4":{
-            "Hcode\\":"vendor\\hcodebr\\php-classes\\src"
+    "autoload": {
+        "psr-4": {
+            "":"vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
